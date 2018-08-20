@@ -1,0 +1,49 @@
+/* --- 4.x DASHBOARD ICONS MENU --- */
+.selected {
+	border:2px solid #e6791c!important;
+	box-shadow:none!important;
+	-moz-box-shadow:none!important;
+	-webkit-box-shadow:none!important;
+}
+ul.dash {
+	margin: 20px;
+	display:block;
+}
+
+ul.dash li {
+	float:left;
+	display:inline-block;
+	margin:0 15px 15px 0;
+}
+
+
+ul.dash li a {
+	display:block;
+	width:106px;
+	height:102px;
+	text-decoration:none;
+}
+
+ul.dash li a img {
+	display:inline;
+	width:48px;
+	margin-left:29px;
+	margin-top:20px;
+}
+
+ul.dash li a span {
+	display:block;
+	width:100%;
+	text-align:center;
+	margin-top:10px;
+	font-size:11px;
+}
+ul.dash li a {
+	 color:#555;
+ background:url('../img/largebut.png') 0 0 no-repeat;
+}
+
+
+ul.dash li a:hover {
+ background:url('../img/largebut_hover.png') 0 0 no-repeat;
+}
